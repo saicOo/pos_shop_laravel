@@ -1,4 +1,4 @@
-# POS System Laravel Project
+# [POS Shop System Laravel Project](http://pos-shop.saico.rf.gd/)
 ![Screenshot 2023-03-22 170026](https://user-images.githubusercontent.com/83503164/227045208-a37ef277-0c8d-4da8-a605-c27068909382.png)
 # Getting started
 ## Installation
@@ -9,7 +9,7 @@ https://github.com/saicOo/laravel-POS-system.git
 ```
 Switch to the repo folder
 ```
-cd laravel-POS-system
+cd pos_shop_laravel
 ```
 Install all the dependencies using composer
 ```
