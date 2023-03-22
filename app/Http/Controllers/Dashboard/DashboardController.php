@@ -26,7 +26,7 @@ class DashboardController extends Controller
             DB::raw('SUM(total_price) as sum')
         )->groupBy('month')->get();
 
+        // dd($sales_data);
         return view('dashboard.index', compact('categories_count', 'products_count', 'clients_count', 'users_count', 'sales_data'));
-
     }//end of index
 }

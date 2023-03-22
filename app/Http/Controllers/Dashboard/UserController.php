@@ -45,7 +45,8 @@ class UserController extends Controller
             'last_name' => 'required',
             'email' => 'required|unique:users',
             'image' => 'image',
-            'password' => 'required|confirmed',
+            "password"=> ['required','string','min:8','confirmed',
+            'regex:/^.*(?=.{3,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[\d\x])(?=.*[!$#@%]).*$/'],
             'permissions' => 'required|min:1',
         ]);
         $request_data = $request->except(['password','password_confirmation','permissions','image']);

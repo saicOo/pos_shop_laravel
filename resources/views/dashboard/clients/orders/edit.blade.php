@@ -40,7 +40,7 @@
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" href="#{{ str_replace(' ', '-', $category->name) }}">{{ $category->name }}</a>
-                                            </h4>
+                                            </h4> 
                                         </div>
 
                                         <div id="{{ str_replace(' ', '-', $category->name) }}" class="panel-collapse collapse">

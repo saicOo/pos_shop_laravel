@@ -46,6 +46,7 @@ class ClientController extends Controller
             'name' => 'required',
             'phone' => 'required|array|min:1',
             'phone.0' => 'required',
+            'phone.*' => 'digits:11',
             'address' => 'required',
         ]);
         Client::create($request->all());
@@ -88,6 +89,7 @@ class ClientController extends Controller
             'name' => 'required',
             'phone' => 'required|array|min:1',
             'phone.0' => 'required',
+            'phone.*' => 'digits:11',
             'address' => 'required',
         ]);
             $client->update($request->all());

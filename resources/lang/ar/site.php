@@ -39,7 +39,7 @@ return [
     'orders' => 'الطلبات',
     'add_order' => 'اضف طلب',
     'edit_order' => 'تعديل طلب',
-
+    'sales' => 'المبيعات',
     'users' => 'المشرفين',
     'first_name' => 'الاسم الاول',
     'last_name' => 'الاسم الاخير',

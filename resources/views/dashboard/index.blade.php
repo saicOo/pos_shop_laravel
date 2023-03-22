@@ -82,7 +82,7 @@
             <div class="box box-solid">
 
                 <div class="box-header">
-                    <h3 class="box-title">Sales Graph</h3>
+                    <h3 class="box-title">@lang('site.sales')</h3>
                 </div>
                 <div class="box-body border-radius-none">
                     <div class="chart" id="line-chart" style="height: 250px;"></div>

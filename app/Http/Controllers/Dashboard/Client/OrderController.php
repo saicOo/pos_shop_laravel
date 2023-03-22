@@ -81,7 +81,7 @@ class OrderController extends Controller
         ]);
 
         $this->detach_order($order);
-        
+
         $this->attach_order($request,$client);
 
         session()->flash('success', __('site.added_successfully'));
